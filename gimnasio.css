@@ -1,0 +1,66 @@
+body{
+    background-color: #ffc1a1;
+}
+
+
+h1 {
+    /*color*/
+    color:#0e3665;
+    /*tipo de letra*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*tamaño de la letra*/
+    font-size: 70px;
+    /*para activar o desactivar cursiva*/
+    font-style: italic;
+    /*grueso del texto*/
+    font-weight: 900;
+    /*transformar el texto*/
+    text-transform: uppercase;
+    /*aplicar sombra*/
+    text-shadow: 5px 5px 5px #0e3665;
+    /*para alinear el texto*/
+    text-align: center;
+    /*interlineado entre textos, se puede usar letras aunque se recomienda numeros*/
+    line-height: 1.5;
+    /*para espacio entre letras y palabras respectivamente*/
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+}
+
+nav{
+    background-color: #0e705a;
+    
+    width: auto;
+    height: auto;
+    border-width: 1px ;
+    border-style: solid;
+    border-color: black;
+    /*redondear cajas*/
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type:none ;
+    color: #0e3665;
+
+}
+li{
+    background-color: ;
+    width: min-content;
+    height: min-content;
+    text-align:center;
+    border-width:0.5px ;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h2 {
+   color:black;
+}
+
+/*
+.color1 {color: #ffc1a1;}
+.color2 {color: #ffe580;}
+.color3 {color: #0e3665;}
+.color4 {color: #0e705a;}
+.color5 {color: #08b358;}*/
